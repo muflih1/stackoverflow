@@ -299,6 +299,16 @@ main aside .scrollable {
   margin-bottom: 16px;
 }
 
+main aside .scrollable::-webkit-scrollbar {
+  width: 10px;
+}
+
+main aside .scrollable::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
 main aside .home {
   padding: 4px 4px 4px 8px;
   display: flex;
