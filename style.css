@@ -703,7 +703,6 @@ footer .end .top li:not(:first-child) {
 
 footer .end p {
   margin-top: auto;
-  margin-bottom: 24px;
   color: inherit;
   font-size: 11px;
 }
